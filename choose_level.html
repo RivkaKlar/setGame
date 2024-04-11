@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="choose_level.css">
+</head>
+
+<body>
+    <h1 id="game_name">set</h1>
+    <p id="explain">You have here a set game,<br />
+        To get started - please complete the details</p>
+    <form id="submit">
+        <label for="fname"> First name:</label>
+    </br>
+        <input type="text" name="fname" value="" id="fname"><br>
+
+        <label>
+            <input type="radio" id="easy" name="level" value="easy_level" 
+                onchange="onchange_level(this)">easy_level
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="hard" name="level" value="hard_level"
+                onchange="onchange_level(this)">hard_level
+        </label>
+        <br>
+
+
+       
+        <div id="result"></div>
+        <button type="submit" onsubmit="onsubmirt()">
+            Start the game
+        </button>
+    </form>
+    <script src="choose_level.js"></script>
+</body>
+
+</html>

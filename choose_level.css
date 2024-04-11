@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(42, 157, 175), rgb(86, 216, 155));
+    box-sizing: border-box;
+}
+
+#game_name {
+    margin: 0;
+    font-family: "Bodoni MT";
+    font-size: 25vh;
+    color: rgb(103, 95, 107);
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+#explain {
+    margin-top: 0;
+    font-size: 6vh;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+#explain ,label{
+    color: rgb(223, 211, 189);
+}
+
+input,button  {
+    background-color: rgb(223, 211, 189);
+}
+
+label,
+#result {
+    font-size: 4vh;
+    accent-color: rgb(20, 12, 12);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+
+}
+
+
+#result {
+    color: rgb(176, 153, 112);
+    font-size: 5vh;
+}
