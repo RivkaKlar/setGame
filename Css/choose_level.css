@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(42, 157, 175), rgb(86, 216, 155));
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    font-family: "Bodoni MT";
+    font-size: 8rem;
+    color: rgb(103, 95, 107);
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.explain_button,.explain,h3,h2 {
+    margin-top: 0;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+.explain,h3,h2 {
+    font-size: 6vh;
+}
+p{
+    font-size: 4vh;
+}
+p ,label,h3,h2{
+    color: rgb(223, 211, 189);
+}
+/* /////////////form////////////// */
+input,button  {
+    background-color: rgb(223, 211, 189);
+}
+label,
+#result,.explain_button {
+    font-size: 4vh;
+    accent-color: rgb(20, 12, 12);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+
+}
+
+#result {
+    color: rgb(176, 153, 112);
+    font-size: 5vh;
+}
+/* //////////////summery//////////////////// */
+#level{
+    color: rgb(94, 89, 79);
+}
+#mark{
+    font-weight: bold;
+   font-size: 8vh;
+    background: linear-gradient(to right, #2521f3, 
+    #4c00ff, #f70800, #eedd44); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+
+}
+

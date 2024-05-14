@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=`, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="choose_level.css">
+    <link rel="stylesheet" href="css/choose_level.css">
 </head>
 
 <body>
-    <h1 id="game_name">set</h1>
-    <p id="explain">You have here a set game,<br />
+    <h1 >Set</h1>
+    <p class="explain">You have here a set game,<br />
         To get started - please complete the details</p>
     <form id="submit">
         <label for="fname"> First name:</label>
@@ -19,24 +18,28 @@
         <input type="text" name="fname" value="" id="fname"><br>
 
         <label>
-            <input type="radio" id="easy" name="level" value="easy_level" 
-                onchange="onchange_level(this)">easy_level
+            <input type="radio" id="low" name="level" value="low_level" 
+                onchange="onchange_level(this)">low__level 
         </label>
         <br>
         <label>
-            <input type="radio" id="hard" name="level" value="hard_level"
-                onchange="onchange_level(this)">hard_level
+            <input type="radio" id="High" name="level" value="High_level"
+                onchange="onchange_level(this)">High_level
         </label>
         <br>
 
 
        
         <div id="result"></div>
+        <p class="explain_button">*If you don't find any set, press the button to get other items , it takes you 2 points off each click!!!!!
+            <br/>
+            Be careful not to use this button too much
+        </p>
         <button type="submit" onsubmit="onsubmirt()">
             Start the game
         </button>
     </form>
-    <script src="choose_level.js"></script>
+    <script src="Js/choose_level.js"></script>
 </body>
 
 </html>
